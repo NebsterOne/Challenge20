@@ -5,8 +5,8 @@ import React from "react";
 function Navigation({ currentPage, handlePageChange }) {
   return (
     <ul className="nav nav-tabs">
-      <h1>Ned Zatezalo</h1>
-      <div>
+      <h1 className="name">Ned Zatezalo</h1>
+      <div className="menubar">
       <li className="nav-item">
         <a
           href="#about"

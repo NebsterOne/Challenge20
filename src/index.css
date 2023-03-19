@@ -1,4 +1,14 @@
+
+*{
+  box-sizing: border-box ;
+}
+html{
+  height: 100%;
+  box-sizing: border-box ;
+  width: 100vw;
+}
 body {
+  box-sizing: border-box ;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -16,18 +26,69 @@ header{
   display:flex;
   flex-direction: column;
   flex-wrap: wrap;
-  justify-items: center;
   justify-content: space-between;
+  background-color: black;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  color: white;
+
 }
 
-.nav{
+.menubar{
   display: flex;
   flex-direction: row;
   justify-items: center;
+  width: 50%;
+  margin-right: 0;
 
 }
 .nav-item{
   list-style-type: none;
   padding: 5px;
   text-align: right;
+}
+.nav-item a{
+  color:white;
+  text-decoration: none;
+}
+
+.nav-item a:hover{
+  color:yellow;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.App {
+  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+footer{
+  margin-top: auto;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+}
+.contactInfo a{
+  color: white;
+  text-decoration: none;
+  font-size:20px ;
+  padding: 5px;
+
+}
+.contactInfo  a:hover{
+  color:yellow;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 5px;
+}
+.about p{
+  text-align: center;
+  padding: 10%;
 }
