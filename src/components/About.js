@@ -1,7 +1,9 @@
 import React from "react";
+import img from "../images/me.jpg"
+
 function About() {
   return <div className="about">
-    <img className="me" src="/images/me.jpg"  alt="avatar"/>
+    <img className="me" src={img}  alt="avatar"/>
     
     <p>LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT.
        VIVAMUS ET CONDIMENTUM MI. MORBI ET DICTUM MI. CRAS MALESUADA EU NULLA EU GRAVIDA.
