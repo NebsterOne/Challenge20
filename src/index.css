@@ -1,62 +1,66 @@
-
-*{
-  box-sizing: border-box ;
+* {
+  box-sizing: border-box;
 }
-html{
+html {
   height: 100%;
-  box-sizing: border-box ;
+  box-sizing: border-box;
   width: 100vw;
 }
 body {
-  box-sizing: border-box ;
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
-header{
-  display:flex;
+header {
+  display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
   background-color: black;
 }
-.nav{
+header h1 {
+  font-size: 55px;
+}
+.nav {
   display: flex;
   justify-content: space-between;
   justify-items: center;
   color: white;
-
 }
 
-.menubar{
+.menubar {
   display: flex;
   flex-direction: row;
   justify-items: center;
   width: 50%;
   margin-right: 0;
-
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 30px;
 }
-.nav-item{
+
+.nav-item {
   list-style-type: none;
   padding: 5px;
   text-align: right;
 }
-.nav-item a{
-  color:white;
+.nav-item a {
+  color: white;
   text-decoration: none;
 }
 
-.nav-item a:hover{
-  color:yellow;
+.nav-item a:hover {
+  color: yellow;
   text-decoration: none;
   font-weight: bold;
 }
@@ -67,7 +71,7 @@ header{
   display: flex;
   flex-direction: column;
 }
-footer{
+footer {
   margin-top: auto;
   background-color: black;
   color: white;
@@ -75,20 +79,92 @@ footer{
   font-size: 20px;
   padding: 10px;
 }
-.contactInfo a{
+
+.contactInfo a {
   color: white;
   text-decoration: none;
-  font-size:20px ;
+  font-size: 25px;
   padding: 5px;
-
 }
-.contactInfo  a:hover{
-  color:yellow;
+.contactInfo a:hover {
+  color: yellow;
   font-weight: bold;
   text-decoration: none;
   padding: 5px;
 }
-.about p{
+.about p {
   text-align: center;
   padding: 10%;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.me {
+  padding-left: 15vw;
+  width: 80vw;
+  display: flex;
+  align-items: center;
+}
+
+.projects{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.project{
+  border-radius: 2px;
+  transition: all 0.6s ease-in-out; 
+  border: solid 3px orange;
+  margin-bottom: 30px;
+  
+}
+
+.project img{
+  width: 45vw;
+}
+
+.heads {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 3%;
+  background-color: #fcfcfc;
+  border: solid rgb(199, 198, 194) 2px;
+  border-radius: 1px;
+  color: rgb(31, 30, 30);
+}
+
+.project a{
+  text-decoration: none;
+  color:darkslategrey;
+}
+
+.project:hover, .project a:hover,
+.heads {
+  box-shadow: inset 0px 0px 8px rgb(148, 148, 148), 0 0 15px rgb(63, 57, 57);
+  font-size: 30px;
+}
+
+img{
+    /* flex-direction: row; */
+    width:100%;
+    height:90%;   
+}
+
+
+@media (max-width: 770px) {
+  .nav,
+  .menubar {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 }
