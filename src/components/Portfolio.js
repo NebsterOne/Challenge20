@@ -16,6 +16,15 @@ function Portfolio() {
               Project 3 - Jewellery E-Commerce Site
             </a>
           </h4>
+          <h3>
+            <a
+              href="https://quiet-caverns-07213.herokuapp.com/"
+              target="_blank"
+              title="My current project"
+            >
+              Github Repo Project #3
+            </a>
+          </h3>
         </heads>
       </div>
       <div class="project">
@@ -30,6 +39,15 @@ function Portfolio() {
               Project 2 - Jewellery E-Commerce Site
             </a>
           </h4>
+          <h3>
+            <a
+              href="https://quiet-caverns-07213.herokuapp.com/"
+              target="_blank"
+              title="My current project"
+            >
+              Github Repo Project #3
+            </a>
+          </h3>
         </heads>
       </div>
       <div class="project">
@@ -44,6 +62,15 @@ function Portfolio() {
               Project 1 - Jewellery E-Commerce Site
             </a>
           </h4>
+          <h3>
+            <a
+              href="https://quiet-caverns-07213.herokuapp.com/"
+              target="_blank"
+              title="My current project"
+            >
+              Github Repo Project #3
+            </a>
+          </h3>
         </heads>
       </div>
       <div class="project">
@@ -58,6 +85,15 @@ function Portfolio() {
               Project 4 - Jewellery E-Commerce Site
             </a>
           </h4>
+          <h3>
+            <a
+              href="https://quiet-caverns-07213.herokuapp.com/"
+              target="_blank"
+              title="My current project"
+            >
+              Github Repo Project #3
+            </a>
+          </h3>
         </heads>
       </div>
       <div class="project">
@@ -72,6 +108,15 @@ function Portfolio() {
               Project 5 - Jewellery E-Commerce Site
             </a>
           </h4>
+          <h3>
+            <a
+              href="https://quiet-caverns-07213.herokuapp.com/"
+              target="_blank"
+              title="My current project"
+            >
+              Github Repo Project #3
+            </a>
+          </h3>
         </heads>
       </div>
       <div class="project ">
@@ -86,6 +131,15 @@ function Portfolio() {
               Project 6 - Jewellery E-Commerce Site
             </a>
           </h4>
+          <h3>
+            <a
+              href="https://quiet-caverns-07213.herokuapp.com/"
+              target="_blank"
+              title="My current project"
+            >
+              Github Repo Project #3
+            </a>
+          </h3>
         </heads>
       </div>
 
