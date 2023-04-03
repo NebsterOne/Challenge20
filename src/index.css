@@ -110,7 +110,7 @@ footer {
   align-items: center;
 }
 
-.projects{
+.projects {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -118,15 +118,14 @@ footer {
   align-items: center;
   text-align: center;
 }
-.project{
+.project {
   border-radius: 2px;
-  transition: all 0.6s ease-in-out; 
+  transition: all 0.6s ease-in-out;
   border: solid 3px orange;
   margin-bottom: 30px;
-  
 }
 
-.project img{
+.project img {
   width: 45vw;
 }
 
@@ -141,23 +140,23 @@ footer {
   color: rgb(31, 30, 30);
 }
 
-.project a{
+.project a {
   text-decoration: none;
-  color:darkslategrey;
+  color: darkslategrey;
 }
 
-.project:hover, .project a:hover,
+.project:hover,
+.project a:hover,
 .heads {
   box-shadow: inset 0px 0px 8px rgb(148, 148, 148), 0 0 15px rgb(63, 57, 57);
   font-size: 30px;
 }
 
-img{
-    /* flex-direction: row; */
-    width:100%;
-    height:90%;   
+img {
+  /* flex-direction: row; */
+  width: 100%;
+  height: 90%;
 }
-
 
 @media (max-width: 770px) {
   .nav,
@@ -167,4 +166,55 @@ img{
     align-items: center;
     text-align: center;
   }
+}
+
+.resume {
+  text-align: center;
+}
+
+.skillList p {
+  color: black;
+  font-size: 26px;
+  font-weight: bold;
+}
+.skillList p:hover {
+  color: orange;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.fst-italic {
+  font-weight: bold;
+  color: orange;
+}
+.t-resume {
+  font-size: 32px;
+}
+.contact-form {
+  text-align: center;
+}
+
+.name-input,
+.email-input {
+  text-align: center;
+  font-size: 32px;
+  box-sizing: border-box;
+  width: 20%;
+  height: 60px;
+}
+
+.message-content {
+  margin-top: 20px;
+}
+
+.message-input {
+  width: 40%;
+  height: 120px;
+  text-align: center;
+  font-size: 32px;
+}
+
+#send-button {
+  text-align: center;
+  font-size: 32px;
 }

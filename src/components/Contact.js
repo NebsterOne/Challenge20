@@ -11,7 +11,7 @@ import emailjs from "@emailjs/browser";
 
   const [hiddenState, setHiddenState] = useState(true);
 
-  const { user_name, user_email, subject, message } = formState;
+  const { user_name, user_email, message } = formState;
 
   function handleChange(e) {
     setFormState({ ...formState, [e.target.name]: e.target.value });
@@ -86,7 +86,7 @@ import emailjs from "@emailjs/browser";
       <div className="send-button">
         <button type="submit" id="send-button">Send</button>
       </div>
-      <div className={hiddenState ? "hidden-toast" : ""}>Sent</div>
+      {/* <div className={hiddenState ? "hidden-toast" : ""}>Sent</div> */}
     </form>
   );
 }

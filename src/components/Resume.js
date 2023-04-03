@@ -1,6 +1,6 @@
 import React from "react";
 // import Container from "react-bootstrap/Container";
-import importPDF from "../images/me.jpg";
+import importPDF from "../images/Resume.pdf";
 import { useState } from "react";
 
 const Resume = () => {
@@ -99,11 +99,11 @@ const Resume = () => {
   ];
 
   return (
-    <div>
-      <h1 className="pinky pad3 fw-bold">Resume</h1>
-      <h3 className="pinky">
+    <div className="resume">
+      <h1 className="pad3 fw-bold">Resume</h1>
+      <h3 className="t-resume">
         Print or download my{" "}
-        <a className="pinky fst-italic" href="#resumePDF" onClick={handleClick}>
+        <a className="fst-italic" href="#resumePDF" onClick={handleClick}>
           resume
         </a>
       </h3>
@@ -113,7 +113,7 @@ const Resume = () => {
           {/* //md={3} sm={2} lg={5}> */}
           {skills.map((skill) => (
             <div className="skill">
-              <div className="d-flex  pinky">
+              <div className="d-flex">
                 {" "}
                 <i className={`${skill.icon} px-2`}></i> <p> {skill.name}</p>
               </div>
