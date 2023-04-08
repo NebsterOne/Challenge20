@@ -8,95 +8,6 @@ const Resume = () => {
   const handleClick = () => {
     setShowPDF(!showPDF);
   };
-  const skills = [
-    {
-      id: "1",
-      name: "HTML",
-      icon: "fas fa-laptop-code",
-    },
-    {
-      id: "2",
-      name: "CSS",
-      icon: "far fa-file-code",
-    },
-    {
-      id: "3",
-      name: "JavaScript",
-      icon: "fab fa-js",
-    },
-    {
-      id: "4",
-      name: "API",
-      icon: "fas fa-cog",
-    },
-    {
-      id: "6",
-      name: "Mysql",
-      icon: "fas fa-database",
-    },
-    {
-      id: "7",
-      name: "Node.js",
-      icon: "fab fa-node-js",
-    },
-    {
-      id: "8",
-      name: "NoSQL",
-      icon: "fas fa-database",
-    },
-    {
-      id: "15",
-      name: "PWA",
-      icon: "fas fa-download",
-    },
-    {
-      id: "10",
-      name: "React",
-      icon: "fab fa-react",
-    },
-    {
-      id: "11",
-      name: "MongoDB",
-      icon: "far fa-folder-open",
-    },
-    {
-      id: "12",
-      name: "GitHub",
-      icon: "fab fa-github",
-    },
-    {
-      id: "13",
-      name: "Branches",
-      icon: "fas fa-project-diagram",
-    },
-
-    {
-      id: "14",
-      name: "Express",
-      icon: "fas fa-shipping-fast",
-    },
-    {
-      id: "9",
-      name: "Progressive",
-      icon: "fas fa-spinner",
-    },
-
-    {
-      id: "15",
-      name: "Debugging",
-      icon: "fa-solid fa-bug-slash",
-    },
-    {
-      id: "16",
-      name: "Heroku",
-      icon: "fas fa-heading",
-    },
-    {
-      id: "17",
-      name: "Responsive",
-      icon: "fas fa-tablet-alt",
-    },
-  ];
 
   return (
     <div className="resume">
@@ -109,17 +20,7 @@ const Resume = () => {
       </h3>
 
       {showPDF ? (
-        <div className="skillList" md="auto">
-          {/* //md={3} sm={2} lg={5}> */}
-          {skills.map((skill) => (
-            <div className="skill">
-              <div className="d-flex">
-                {" "}
-                <i className={`${skill.icon} px-2`}></i> <p> {skill.name}</p>
-              </div>
-            </div>
-          ))}
-        </div>
+        <div className="skillList" md="auto"></div>
       ) : (
         <div className="w-100">
           <object
@@ -130,6 +31,38 @@ const Resume = () => {
           />
         </div>
       )}
+
+      <div className="setskills">
+        <div className="front skillList">
+          <h1>Front-End Tech</h1>
+          <p>HTML5</p>
+          <p>CSS</p>
+          <p>JavaScript</p>
+          <p>APIs</p>
+          <p>Bootstrap</p>
+          <p>GIT</p>
+        </div>
+        <div className="back skillList">
+          <h1>Back-End Tech</h1>
+          <p>Node.js</p>
+          <p>Jest</p>
+          <p>Express.js</p>
+          <p>MySQL</p>
+          <p>Sequelize</p>
+          <p>Object-Relational Mapping(ORM)</p>
+          <p>Model-View-Controller(MVC)</p>
+        </div>
+        <div className="tech skillList">
+          <h1>Performance Tech</h1>
+          <p>NoSQL</p>
+          <p>Progressive Web Applications(PWA)</p>
+          <p>MongoDB</p>
+          <p>Mongoose</p>
+          <p>GraphQL</p>
+          <p>React</p>
+          <p>MERN</p>
+        </div>
+      </div>
     </div>
   );
 };
