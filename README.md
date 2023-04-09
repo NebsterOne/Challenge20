@@ -8,19 +8,14 @@ Being a web developer means being part of a community. We all need a place to sh
 
 ## Table of Contents
 
-- [License](#license)
 - [Installation](#installation)
 - [User Story](#user-story)
 - [Acceptance Criteria](#acceptance-criteria)
 - [Screenshots](#screenshots)
 - [Link](#link)
-- [Usage](#usage)License
+- [Usage](#usage)
 - [License](#license)
 - [Signature](#signature)
-
-## License
-
-This project is license under MIT ![Github licence](http://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Installation
 
