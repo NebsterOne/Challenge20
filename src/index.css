@@ -5,6 +5,7 @@ html {
   height: 100%;
   box-sizing: border-box;
   /* width: 100vw; */
+ 
 }
 body {
   box-sizing: border-box;
@@ -30,6 +31,7 @@ header {
 }
 header h1 {
   font-size: 55px;
+  margin:10px;
 }
 .nav {
   display: flex;
@@ -67,7 +69,7 @@ header h1 {
 }
 
 .App {
-  height: 100%;
+  /* max-height: 100vh; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -95,7 +97,7 @@ footer {
 }
 .about p {
   text-align: center;
-  padding: 10%;
+  padding: 2%;
 }
 
 .about {
