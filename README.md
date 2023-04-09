@@ -79,7 +79,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ## Link
 
-<a href="https://nebsterone.github.io/React_Portfolio/">Click Here</a>
+[My Portfolio](https://protected-oasis-06967.herokuapp.com/)
 
 ## Usage
 
