@@ -14,7 +14,9 @@ Being a web developer means being part of a community. We all need a place to sh
 - [Acceptance Criteria](#acceptance-criteria)
 - [Screenshots](#screenshots)
 - [Link](#link)
-- [Usage](#usage)
+- [Usage](#usage)License
+- [License](#license)
+- [Signature](#signature)
 
 ## License
 
@@ -68,8 +70,11 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 ## Screenshots
 
 ![Screenshot 1 for my Professional Portfolio](./src/images/Screenshot_1.png)
+
 ![Screenshot 2 for my Professional Portfolio](./src/images/Screenshot_2.png)
+
 ![Screenshot 3 for my Professional Portfolio](./src/images/Screenshot_3.png)
+
 ![Screenshot 4 for my Professional Portfolio](./src/images/Screenshot_4.png)
 
 ## Link
@@ -79,3 +84,11 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 ## Usage
 
 To create a portfolio, using React. The user can review and About Me section, a sample Portfolio, a contact form, and be able to download the Resume.
+
+## License
+
+![badge](https://img.shields.io/badge/MIT-License-blue.svg)
+
+## Signature
+
+GitHub: [NebsterOne](https://github.com/NebsterOne)
